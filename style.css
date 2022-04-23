@@ -114,7 +114,7 @@ body{background-color: #000000;margin:0;box-sizing:border-box}
 .home_bored_bunny_inner{width:25%}
 .home_bored_text{position:absolute;bottom:0;left:0;right:0;margin:0 auto;text-align:center}
 .home_bored_text h3{font-size:200px;color:#fff;margin:0;text-align:center;font-family:'Rubik';font-weight:900}
-.home_benifits{padding:135px 0;background-repeat:no-repeat;background-size:cover}
+.home_benifits{padding: 75px 0;background-repeat:no-repeat;background-size:cover}
 .home_benifits_heading h3{font-size:70px;color:#fff;margin:0 0 10px;font-family: 'Roboto Slab';font-weight:700;text-align:center}
 .home_benifits_heading h3 em{font-style:normal;font-weight:900}
 .home_benifits_heading p{font-size:17px;margin:0 0 35px;color:#fff;font-family:'Poppins';font-weight:400;text-align:center}
@@ -402,7 +402,7 @@ max-width: 18px;
 .what_inner_text h3 {font-size: 30px;margin:20px 0 20px;text-align: center;}
 .what_inner_img{text-align: center;max-width: 300px;
 margin: 0 auto 35px;}
-.what_inner_text p {font-size: 13px;padding-left: 30px;margin-bottom: 40px;}
+.what_inner_text p {font-size: 13px;padding-left: 30px;margin-bottom: 40px;text-align: center;}
 
 .what_inner_text h4 {
 font-size: 14px;}
@@ -492,8 +492,8 @@ max-width: 18px;
 }
 
 .community_flex {
-justify-content: center;
-}
+
+display: flex;align-content: center;flex-wrap: nowrap;flex-direction: column;align-items: center;justify-content: center;}
 .community_inner .btn {
 font-size: 10px;
 padding: 18px 20px;}
@@ -666,8 +666,8 @@ max-width: 60px;
 }
 .to_be_announced h5 {text-align: center;font-size: 13px;}
 .home_road_map_text h3 {
-font-size: 14px;}
-.home_road_map_text p { font-size: 10px; }
+font-size: 19px;}
+.home_road_map_text p { font-size: 13px; }
 .home_community {
 padding: 70px 0 50px;}
 .footer_div {
@@ -688,7 +688,7 @@ padding-bottom: 20px;}
 .mobile_road_map_inner{
 display: flex;margin-bottom: 20px;
 
-}
+align-items: center;justify-content: center;}
 .mobile_road_map_text{margin-left:20px;}
 
 
