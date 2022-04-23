@@ -281,7 +281,7 @@ transform:rotate(360deg);
 }
 .mobile_road_map_flex{display: none;}
 
-.what_inner_img{position: relative;}
+.what_inner_img{position: relative;max-height: 80%;max-width: 80%;}
 .round_icon{position: absolute;bottom: 0;}
 .round_icon1{bottom: 35%;left: 33%;animation: myOrbit 10s linear infinite;}
 .round_icon2{left: 33%;bottom: 29%;animation: myOrbit 12s linear infinite;}
