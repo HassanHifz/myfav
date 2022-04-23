@@ -1590,7 +1590,7 @@ text-align: center;
 	display:none;
 }
 	
-.what_inner_img>img{max-width:500px;margin:0 auto;margin-top: 60px;}     
+.what_inner_img>img{max-width:500px;margin:0 auto;margin-top: 20px;}     
 .benifit_round_img {
 position: absolute;
 bottom: -11%;
